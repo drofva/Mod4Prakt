@@ -28,6 +28,11 @@
 			isShow: true
 		},
 		{
+			title: 'Портфолио',
+			href: '/project',
+			isShow: true
+		},
+		{
 			title: 'Контакты',
 			href: '/contact',
 			isShow: true
