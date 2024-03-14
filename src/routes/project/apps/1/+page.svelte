@@ -1,7 +1,7 @@
-<h1>My to-do list</h1>
+<h1>Список дел</h1>
 <main>
     <form on:submit|preventDefault={add}>
-        <input bind:value={newItem} placeholder="Enter to-do" />
+        <input bind:value={newItem} placeholder="Введи тут" />
         <button class="add-todo" on:click={add}><span>+</span></button>
     </form>
 
@@ -58,7 +58,7 @@ function complete(index) {
     min-height: 100%;
     padding: 5vmin;
     box-sizing: border-box;
-    background: rgb(241, 198, 215);
+    background: rgb(198, 241, 204);
 }
 
 form {
@@ -73,7 +73,7 @@ input {
     flex-grow: 1;
     width: 0;
     border: none;
-    border-bottom: 1px solid rgb(136, 0, 75);
+    border-bottom: 1px solid rgb(0, 136, 34);
     background: transparent;
     box-shadow: none;
     font-size: 1.2rem;
@@ -90,8 +90,8 @@ input {
     display: flex;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(161, 10, 10, 0.2);
-    background-color: hsla(345, 82%, 29%, 0.2);
+    box-shadow: 0 0 15px rgba(10, 161, 18, 0.2);
+    background-color: hsla(113, 82%, 29%, 0.2);
     margin-top: 1rem;
     font-size: 1.2rem;
     justify-content: space-between;
@@ -153,12 +153,12 @@ button {
 
 	button.delete,
 	button.delete:hover {
-		color: rgb(177, 34, 34);
+		color: rgb(172, 39, 39);
 		transition: color 100ms ease-out;
 	}
 	button.complete,
 	button.complete:hover {
-		color: rgb(90, 14, 65);
+		color: rgb(14, 90, 46);
 		transition: color 100ms ease-out;
 	}
 	.todo.completed {

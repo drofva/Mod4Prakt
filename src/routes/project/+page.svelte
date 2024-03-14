@@ -33,17 +33,17 @@
   
     .apps {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px;
+      grid-template-columns: 55fr 1fr;
+      grid-gap: 200px;
     }
   
     .app {
-      border: 1px solid #eb8383;
+      border: 1px solid #86eb83;
       padding: 10px;
-      box-shadow: 0 0 10px #eb8787;
+      box-shadow: 0 0 10px #87eb8c;
     }
   
     .link {
-      color: rgb(117, 12, 56);
+      color: rgb(6, 66, 19);
     }
   </style>

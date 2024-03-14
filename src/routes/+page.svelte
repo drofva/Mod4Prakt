@@ -8,15 +8,18 @@
             <div class="container info-container">
                 <div class="info-text">
                     <h1>
-                    <p class="animate-text-1">Lorem ipsum dolor sit,</p>
-                    <p class="text-2">Lorem ipsum dolor sit amet.</p>
+                    <p class="animate-text-1">Я супер-пупер девочка</p>
+                    <p class="text-2">Я мега-ультра вау
+                    
+                    </p>
                     </h1>
                 </div>
                 <h2 class="subtitle">
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
+                   ляляляля
                 </h2>
                 <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-                    <a href="/about">Click Here</a><div class="arrow">→</div>
+                    <a class='link' href={``}></a>
+                    <a href="/about">Нажми здесь</a><div class="arrow">→</div>
                 </div>
             </div>
         </div>
@@ -56,7 +59,7 @@
         font: inherit;
         margin: 0;
         text-align: left;
-        line-height: 130%;
+        line-height: 180%;
         width: fit-content;
         font-weight: 800;
         letter-spacing: -0.03em;
@@ -70,7 +73,7 @@
 
     .background-div {
         background-color: #ffffff;
-        width: 100%;
+        width: 200%;
         height: 56vh;
         margin: -205px auto;
     }
